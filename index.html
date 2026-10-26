@@ -1,0 +1,483 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff0f5">
+    <meta name="description" content="Cute Plushie Collection — katalog boneka lucu dan menggemaskan.">
+    <title>Cute Plushie Collection ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="#beranda" class="brand">
+            <img src="logo.png" alt="Logo Cute Plushie Collection">
+            <span>Cute Plushie <b>Collection</b></span>
+        </a>
+
+        <nav aria-label="Navigasi utama">
+            <a href="#beranda">Beranda</a>
+            <a href="#koleksi">Koleksi</a>
+            <a href="#tentang">Tentang Kami</a>
+        </nav>
+
+        <a class="nav-button" href="#koleksi">Explore ♡</a>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="beranda">
+            <div class="hero-text">
+                <span class="eyebrow">♡ YOUR LITTLE WORLD OF HAPPINESS ♡</span>
+
+                <h1>
+                    Cute Plushie<br>
+                    <span>Collection!</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    Pelukan Hangat yang Menggemaskan
+                </p>
+
+                <p>
+                    Temukan dunia kecil penuh kebahagiaan bersama
+                    boneka-boneka lucu yang siap menemani harimu.
+                    Setiap boneka punya pesona dan cerita tersendiri!
+                </p>
+
+                <a href="#koleksi" class="button-primary">
+                    Lihat Koleksi ♡
+                </a>
+
+                <p class="hero-note">
+                    🎀 Made with love, collected with happiness 🎀
+                </p>
+            </div>
+
+            <div class="hero-art">
+                <div class="hero-circle"></div>
+
+                <span class="decoration decor-one">♡</span>
+                <span class="decoration decor-two">✧</span>
+                <span class="decoration decor-three">୨୧</span>
+
+                <img
+                    src="logo.png"
+                    alt="Cute Plushie Collection"
+                    class="hero-logo"
+                >
+
+                <div class="floating-label">
+                    So cute, so lovely! ♡
+                </div>
+            </div>
+        </section>
+
+        <!-- KEUNGGULAN -->
+        <section class="benefits">
+            <div class="benefit">
+                <div class="benefit-icon">🧸</div>
+                <div>
+                    <h3>Adorable Collection</h3>
+                    <p>Koleksi boneka yang menggemaskan</p>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <div class="benefit-icon">🎀</div>
+                <div>
+                    <h3>Lovely Characters</h3>
+                    <p>Beragam bentuk dan karakter unik</p>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <div class="benefit-icon">💗</div>
+                <div>
+                    <h3>Little Happiness</h3>
+                    <p>Temukan boneka favoritmu</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog" id="koleksi">
+            <div class="section-heading">
+                <span class="eyebrow">A LITTLE PIECE OF JOY</span>
+                <h2>Our Lovely Collection ♡</h2>
+                <p>
+                    Pilih boneka favoritmu dan kenali keunikannya!
+                </p>
+            </div>
+
+            <div class="search-area">
+                <label class="search-box">
+                    <span>⌕</span>
+                    <input
+                        type="search"
+                        id="searchInput"
+                        placeholder="Cari nama boneka..."
+                        aria-label="Cari nama boneka"
+                    >
+                </label>
+
+                <span class="result-count" id="resultCount">
+                    9 koleksi
+                </span>
+            </div>
+
+            <!-- FILTER -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="semua">
+                    Semua Koleksi
+                </button>
+
+                <button class="filter-btn" data-category="jellycat">
+                    Jellycat
+                </button>
+
+                <button class="filter-btn" data-category="popmart">
+                    POP MART
+                </button>
+
+                <button class="filter-btn" data-category="aurora">
+                    Aurora World
+                </button>
+            </div>
+
+            <!-- JELLYCAT -->
+            <div class="brand-heading">
+                <span>🌷</span>
+                <h3>Jellycat Collection</h3>
+                <span>🌷</span>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card"
+                    data-category="jellycat"
+                    data-name="Blossom Bunny"
+                    data-description="Kelinci putih berbulu lembut dengan telinga panjang, pita, dan gaun bermotif bunga mungil. Penampilannya manis dengan nuansa vintage yang lembut.">
+
+                    <div class="product-image pink-bg">
+                        <span class="product-number">01</span>
+                        <button class="heart-btn" aria-label="Tambahkan Blossom Bunny ke favorit" aria-pressed="false">♡</button>
+
+                        <img src="boneka1.jpg"
+                            alt="Blossom Bunny, boneka kelinci putih dengan gaun bunga"
+                            loading="lazy">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">JELLYCAT</span>
+                        <h3>Blossom Bunny</h3>
+                        <p>Kelinci putih dengan gaun bunga dan telinga panjang yang lembut.</p>
+                        <button class="detail-btn">Lihat Detail ♡</button>
+                    </div>
+                </article>
+
+                <article class="product-card"
+                    data-category="jellycat"
+                    data-name="Marshmallow Duo"
+                    data-description="Dua boneka marshmallow berwarna pink dan putih dengan wajah tersenyum serta kaki cokelat. Bentuknya sederhana, unik, dan menggemaskan untuk menghiasi kamar.">
+
+                    <div class="product-image cream-bg">
+                        <span class="product-number">02</span>
+                        <button class="heart-btn" aria-label="Tambahkan Marshmallow Duo ke favorit" aria-pressed="false">♡</button>
+
+                        <img src="boneka2.jpg"
+                            alt="Dua boneka marshmallow pink dan putih"
+                            loading="lazy">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">JELLYCAT</span>
+                        <h3>Marshmallow Duo</h3>
+                        <p>Dua marshmallow lucu dengan senyum manis dan kaki mungil.</p>
+                        <button class="detail-btn">Lihat Detail ♡</button>
+                    </div>
+                </article>
+
+                <article class="product-card"
+                    data-category="jellycat"
+                    data-name="Smiling Moon"
+                    data-description="Boneka bulan sabit berwarna krem dengan tekstur berbulu dan wajah tersenyum. Desainnya cocok untuk dekorasi kamar dengan suasana hangat dan nyaman.">
+
+                    <div class="product-image lavender-bg">
+                        <span class="product-number">03</span>
+                        <button class="heart-btn" aria-label="Tambahkan Smiling Moon ke favorit" aria-pressed="false">♡</button>
+
+                        <img src="boneka3.jpg"
+                            alt="Boneka bulan sabit krem dengan wajah tersenyum"
+                            loading="lazy">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">JELLYCAT</span>
+                        <h3>Smiling Moon</h3>
+                        <p>Bulan sabit berbulu lembut dengan senyum yang menenangkan.</p>
+                        <button class="detail-btn">Lihat Detail ♡</button>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="brand-heading">
+                <span>🎠</span>
+                <h3>POP MART Collection</h3>
+                <span>🎠</span>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card"
+                    data-category="popmart"
+                    data-name="Cozy Plush Friends"
+                    data-description="Kumpulan boneka karakter mini dengan kostum berbulu, warna pastel, dan detail karakter yang berbeda-beda. Setiap figur memiliki gaya unik yang menarik untuk dikoleksi.">
+
+                    <div class="product-image peach-bg">
+                        <span class="product-number">04</span>
+                        <button class="heart-btn" aria-label="Tambahkan Cozy Plush Friends ke favorit" aria-pressed="false">♡</button>
+
+                        <img src="boneka4.jpg"
+                            alt="Kumpulan figur karakter mini dengan kostum berbulu"
+                            loading="lazy">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">POP MART</span>
+                        <h3>Cozy Plush Friends</h3>
+                        <p>Kumpulan karakter mini berkostum fluffy dengan warna lembut.</p>
+                        <button class="detail-btn">Lihat Detail ♡</button>
+                    </div>
+                </article>
+
+                <article class="product-card"
+                    data-category="popmart"
+                    data-name="Dreamy Character Figures"
+                    data-description="Deretan figur karakter mini dengan kostum dan aksesori yang beragam. Perpaduan warna serta desainnya memberikan kesan fantasi dan artistik bagi para kolektor.">
+
+                    <div class="product-image lavender-bg">
+                        <span class="product-number">05</span>
+                        <button class="heart-btn" aria-label="Tambahkan Dreamy Character Figures ke favorit" aria-pressed="false">♡</button>
+
+                        <img src="boneka5.jpg"
+                            alt="Koleksi figur karakter mini dengan berbagai kostum"
+                            loading="lazy">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">POP MART</span>
+                        <h3>Dreamy Character Figures</h3>
+                        <p>Figur karakter unik dengan kostum dan aksesori yang menarik.</p>
+                        <button class="detail-btn">Lihat Detail ♡</button>
+                    </div>
+                </article>
+
+                <article class="product-card"
+                    data-category="popmart"
+                    data-name="Little Story Figures"
+                    data-description="Koleksi figur mini dengan ekspresi dan aktivitas yang berbeda. Setiap figur menggambarkan karakter kecil dengan cerita tersendiri, cocok untuk dipajang di rak koleksi.">
+
+                    <div class="product-image pink-bg">
+                        <span class="product-number">06</span>
+                        <button class="heart-btn" aria-label="Tambahkan Little Story Figures ke favorit" aria-pressed="false">♡</button>
+
+                        <img src="boneka6.jpg"
+                            alt="Figur karakter mini dengan pose dan ekspresi beragam"
+                            loading="lazy">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">POP MART</span>
+                        <h3>Little Story Figures</h3>
+                        <p>Figur mini dengan pose unik yang menghiasi rak koleksi.</p>
+                        <button class="detail-btn">Lihat Detail ♡</button>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="brand-heading">
+                <span>🌸</span>
+                <h3>Aurora World Collection</h3>
+                <span>🌸</span>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card"
+                    data-category="aurora"
+                    data-name="Pink Baby Dragon"
+                    data-description="Boneka naga kecil berwarna pink dengan sayap, tanduk, mata besar, dan perut berwarna krem. Kombinasi warna cerah dan bentuk fantasinya membuat tampilannya semakin menggemaskan.">
+
+                    <div class="product-image pink-bg">
+                        <span class="product-number">07</span>
+                        <button class="heart-btn" aria-label="Tambahkan Pink Baby Dragon ke favorit" aria-pressed="false">♡</button>
+
+                        <img src="boneka7.jpg"
+                            alt="Boneka naga pink dengan sayap dan mata besar"
+                            loading="lazy">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">AURORA WORLD</span>
+                        <h3>Pink Baby Dragon</h3>
+                        <p>Naga pink berbulu dengan sayap mungil dan mata besar.</p>
+                        <button class="detail-btn">Lihat Detail ♡</button>
+                    </div>
+                </article>
+
+                <article class="product-card"
+                    data-category="aurora"
+                    data-name="Lamb with Pink Tulip"
+                    data-description="Boneka domba berbulu putih dengan ekspresi damai sambil memegang bunga tulip pink. Perpaduan warna putih, pink, dan hijau memberikan kesan lembut serta manis.">
+
+                    <div class="product-image cream-bg">
+                        <span class="product-number">08</span>
+                        <button class="heart-btn" aria-label="Tambahkan Lamb with Pink Tulip ke favorit" aria-pressed="false">♡</button>
+
+                        <img src="boneka8.jpg"
+                            alt="Boneka domba putih memegang bunga tulip pink"
+                            loading="lazy">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">AURORA WORLD</span>
+                        <h3>Lamb with Pink Tulip</h3>
+                        <p>Domba putih berbulu dengan bunga tulip pink yang cantik.</p>
+                        <button class="detail-btn">Lihat Detail ♡</button>
+                    </div>
+                </article>
+
+                <article class="product-card"
+                    data-category="aurora"
+                    data-name="Pink Bear Overall"
+                    data-description="Boneka beruang putih berbulu lembut dengan pipi pink dan baju overall rajut berwarna pink. Detail gambar beruang kecil di bajunya menambah kesan manis.">
+
+                    <div class="product-image peach-bg">
+                        <span class="product-number">09</span>
+                        <button class="heart-btn" aria-label="Tambahkan Pink Bear Overall ke favorit" aria-pressed="false">♡</button>
+
+                        <img src="boneka9.jpg"
+                            alt="Boneka beruang putih memakai overall rajut pink"
+                            loading="lazy">
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">AURORA WORLD</span>
+                        <h3>Pink Bear Overall</h3>
+                        <p>Beruang putih dengan overall rajut pink dan pipi merona.</p>
+                        <button class="detail-btn">Lihat Detail ♡</button>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- HASIL PENCARIAN KOSONG -->
+            <div class="empty-state" id="emptyState" hidden>
+                <span>🧸</span>
+                <h3>Yah, bonekanya belum ditemukan!</h3>
+                <p>Coba nama lain atau pilih kategori yang berbeda, ya.</p>
+            </div>
+
+        </section>
+
+        <section class="about" id="tentang">
+            <div class="about-logo">
+                <img src="logo.png" alt="Logo Cute Plushie Collection">
+            </div>
+
+            <div class="about-text">
+                <span class="eyebrow">A WORLD FULL OF CUTENESS</span>
+
+                <h2>A Little Hug,<br>A Lot of Happiness ♡</h2>
+
+                <p>
+                    Cute Plushie Collection adalah katalog digital
+                    yang menampilkan berbagai boneka dan figur lucu
+                    dengan karakter, warna, dan keunikan masing-masing.
+                    Jelajahi koleksi favoritmu dan temukan inspirasi
+                    dari dunia boneka yang penuh warna!
+                </p>
+
+                <a href="#koleksi" class="button-primary">
+                    Jelajahi Koleksi ♡
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <a href="#beranda" class="footer-brand">
+            🎀 Cute Plushie Collection
+        </a>
+
+        <div class="social-footer">
+            <p>Let's be friends! ♡</p>
+
+            <a
+                href="https://www.instagram.com/nwrns_n1n15?stkn=MWIydGc2djU4aW81Yw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                class="instagram-link"
+            >
+                <span class="instagram-icon">◎</span>
+                Follow us on Instagram
+            </a>
+
+            <p class="social-note">
+                Share your little happiness with us! 💗
+            </p>
+        </div>
+
+        <a href="#beranda" class="back-to-top">
+            ↑ Kembali ke atas
+        </a>
+
+        <p class="copyright">
+            © 2026 Cute Plushie Collection. Made with ♡
+        </p>
+    </footer>
+
+    <div class="modal" id="detailModal" hidden>
+        <div
+            class="modal-content"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modalTitle"
+        >
+            <button
+                class="modal-close"
+                id="closeModal"
+                aria-label="Tutup pop-up"
+            >&times;</button>
+
+            <img
+                id="modalImage"
+                class="modal-image"
+                src=""
+                alt="Foto boneka"
+            >
+
+            <p class="modal-category" id="modalCategory"></p>
+            <h2 id="modalTitle">Nama Boneka</h2>
+            <p id="modalDescription"></p>
+
+            <button class="button-primary modal-done" id="doneModal">
+                Kembali ke Katalog ♡
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
